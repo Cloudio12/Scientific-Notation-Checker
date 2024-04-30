@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://w.wallhaven.cc/full/85/wallhaven-8586my.png);
+    background-size: cover;
+    background-position: center;
+    color: #000;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(59, 10, 59); /* Warna untuk tulisan "Enter a number:" */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #ee63af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a7246c;
+}
+
+h1 {
+    color: rgb(59, 10, 59); /* Warna untuk tulisan "Scientific Notation Checker" */
+    
+}
+
+.error-message {
+    color: red; /* Warna untuk pesan kesalahan */
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#result {
+    color: rgb(250, 249, 249); /* Warna untuk pesan "Valid scientific notation!" */
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#error-message {
+    color: red; /* Warna untuk pesan "Invalid scientific notation. Please enter a valid notation." */
+    font-family: 'Press Start 2P', sans-serif;
+}
